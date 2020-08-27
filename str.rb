@@ -8,7 +8,7 @@ def bubble_sort(vals)
   swapped = true
   end
   end
-  break if !swapped
+  break if not swapped
   end
   vals
 end
