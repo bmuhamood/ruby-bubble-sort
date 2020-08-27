@@ -12,5 +12,5 @@ def bubble_sort(vals)
   end
   vals
 end
-  string = ["hi", "hello", "hey"]
+  string = ['hi', 'hello', 'hey']
   print bubble_sort(string)
