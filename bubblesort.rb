@@ -3,7 +3,7 @@ def bubble_sort(array)
   loop do
     swapped = false
     (myarr - 1).times do |arr|
-      if array[arr] > array[arr + 1]
+      unless array[arr] > array[arr + 1]
         array[arr], array[arr + 1] = array[arr + 1], array[arr]
         swapped = true
       end
