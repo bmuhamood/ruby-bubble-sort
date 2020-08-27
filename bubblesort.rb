@@ -1,14 +1,15 @@
 def bubble_sort(array)
-    n = array.length
+    # length of the array
+    myarr = array.length
 
     loop do
         swapped = false
-        (n-1).times do |num|
+        (myarr-1).times do |arr|
 
-            # creating condition
-            if array[num] > array[num+1]
+            # condition
+            if array[arr] > array[arr+1]
             # swapping elements when the next value either true of false
-                array[num], array[num + 1] = array[num + 1], array[num]
+                array[arr], array[arr + 1] = array[arr + 1], array[arr]
                 swapped = true
                 array
             end
