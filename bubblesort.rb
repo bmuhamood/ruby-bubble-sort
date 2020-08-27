@@ -1,6 +1,6 @@
 def bubble_sort(array)
   myarr = array.length
-  loop do
+loop do
     swapped = false
     (myarr - 1).times do |arr|
       if array[arr] > array[arr + 1]
@@ -8,8 +8,7 @@ def bubble_sort(array)
         swapped = true
       end
     end
-    break 
-    if !swapped
+    break if swapped == false
   end
   array
 end

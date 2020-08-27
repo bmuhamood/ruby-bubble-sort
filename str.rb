@@ -8,10 +8,10 @@ def bubble_sort(vals)
         swapped = true
       end
     end
-   break 
-   if !swapped
+   break if !swapped
   end
   vals
 end
+
   string = %w[hi hello hey]
   print bubble_sort(string)
