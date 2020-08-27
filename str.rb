@@ -13,6 +13,5 @@ def bubble_sort(vals)
   end
   vals
 end
-end
   string = %w[hi hello hey]
   print bubble_sort(string)
