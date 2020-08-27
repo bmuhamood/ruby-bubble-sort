@@ -5,7 +5,7 @@ def bubble_sort(vals)
             swapped = false
     (n-1).times do |mystr|
         # condition
-        if vals[mystr] > vals[mystr + 1]  
+        if vals[mystr] < vals[mystr + 1]  
         vals[mystr], vals[mystr + 1] = vals[mystr + 1], vals[mystr]
         swapped = true
         vals
@@ -16,4 +16,4 @@ end
 vals
 end
 string = ["hi","hello","hey"]
-bubble_sort(string)
+print bubble_sort(string)
