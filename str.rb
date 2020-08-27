@@ -6,7 +6,6 @@ def bubble_sort(vals)
     if vals[mystr] < vals[mystr + 1]
   vals[mystr], vals[mystr + 1] = vals[mystr + 1], vals[mystr]
   swapped = true
-  vals
   end
   end
   break if !swapped
