@@ -1,5 +1,5 @@
 def bubble_sort(vals)
-  n = vals.length
+    n = vals.length
   loop do
   swapped = false
   (n - 1).times do |mystr |
@@ -9,7 +9,7 @@ def bubble_sort(vals)
   vals
   end
   end
-  break if not swapped
+  break if !swapped
   end
   vals
   end
