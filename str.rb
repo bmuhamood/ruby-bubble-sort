@@ -1,4 +1,4 @@
-def bubble_sort(vals)
+  def bubble_sort(vals)
   n = vals.length
   loop do
 # it will print the loop once
