@@ -12,7 +12,7 @@ def bubble_sort(vals)
   end
   vals
 end
-bsort_by = bubble_sort(%w[hello hey hi her]) do |left, right|
+st_sort = bubble_sort(%w[hello hey hi her]) do |left, right|
   left.length - right.length
 end
-print bsort_by
+print st_sort
