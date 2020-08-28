@@ -2,8 +2,8 @@ def bubble_sort(vals)
   n = vals.length
   loop do
     swapped = false
-    (n-1).times do |mystr|
-      unless vals[mystr] < vals[mystr + 1]
+    (n - 1).times do |mystr|
+      if vals[mystr] < vals[mystr + 1]
         vals[mystr], vals[mystr + 1] = vals[mystr + 1], vals[mystr]
         swapped = true
       end
