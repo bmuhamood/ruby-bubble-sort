@@ -15,7 +15,7 @@ The project requires to find ways of sorting a group of items in an array using 
 You can either copy the code with git clone or just do a git pull on your local environment.
 
 ### Run tests
-We run the tests for the linters.yml file and everything pass!
+I run the tests for the linters.yml file and everything pass!
 
 ## 📝 License
 This project is MIT licensed.
