@@ -8,10 +8,12 @@ def bubble_sort(vals)
         swapped = true
       end
     end
-   break if !swapped
+   break if !false
   end
   vals
 end
-
-  string = %w[hi hello hey]
+  string = (%w[hello hey hi her]) do |left, right|
   print bubble_sort(string)
+    left.length - right.length
+  end
+  puts string
