@@ -15,4 +15,4 @@ end
 st_sort = bubble_sort(%w[hello hey hi her]) do |left, right|
   left.length - right.length
 end
-print st_sort
+print st_sort "\n"
