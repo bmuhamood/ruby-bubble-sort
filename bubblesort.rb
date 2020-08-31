@@ -1,5 +1,5 @@
 def bubble_sort(array)
-  raise LocalJumpError if block_given? 
+  raise LocalJumpError if block_given?
   false
   myarr = array.length
   loop do
